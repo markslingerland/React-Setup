@@ -108,6 +108,4 @@ class TodoList extends React.Component<ITodoListProps, any> {
             </ul>
         )
     }
-
-
 }
