@@ -5,12 +5,14 @@ import { Home } from "./components/Home";
 import { FetchData } from "./components/FetchData";
 import { Counter } from "./components/Counter";
 import { todoApp } from "./components/todoApp";
+import { ContactForm } from "./components/Material";
 
 export default <Route component={ Layout }>
     <Route path="/" components={{ body: Home }} />
     <Route path="/counter" components={{ body: Counter }} />
     <Route path="/fetchdata" components={{ body: FetchData }} />
     <Route path="/todo" components={{ body: todoApp }} />
+    <Route path="/material" components={{ body: ContactForm }} />
 </Route>;
 
 // allow Hot Module Reloading
